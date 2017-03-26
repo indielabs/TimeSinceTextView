@@ -1,4 +1,4 @@
-package com.ddiehl.timesincetextview;
+package sa.indielabs.timesincetextview;
 
 import android.content.Context;
 
@@ -12,6 +12,16 @@ public class TimeSince {
             R.plurals.tstv_timespan_hours,
             R.plurals.tstv_timespan_minutes,
             R.plurals.tstv_timespan_seconds
+    };
+
+    private static final int[] TIMESPAN_IN_IDS = {
+            R.plurals.tstv_timespan_in_years,
+            R.plurals.tstv_timespan_in_months,
+            R.plurals.tstv_timespan_in_weeks,
+            R.plurals.tstv_timespan_in_days,
+            R.plurals.tstv_timespan_in_hours,
+            R.plurals.tstv_timespan_in_minutes,
+            R.plurals.tstv_timespan_in_seconds
     };
 
     private static final int[] TIMESPAN_IDS_ABBR = {
@@ -70,9 +80,15 @@ public class TimeSince {
                         unit, unit);
                 break;
             }
+            if (unit < 0) {
+                output = context.getResources().getQuantityString(
+                        abbreviated ? TIMESPAN_IDS_ABBR[i] : TIMESPAN_IN_IDS[i],
+                        Math.abs(unit), Math.abs(unit));
+                break;
+            }
         }
 
-        if (unit == seconds && seconds <= NOW_THRESHOLD_SECONDS) {
+        if (unit == seconds && seconds == NOW_THRESHOLD_SECONDS) {
             output = context.getString(R.string.tstv_timespan_now);
         }
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="tstv_timespan_now">just now</string>
+<string name="tstv_timespan_now">just now</string>
+    <string name="event_information">Event information</string>
     <plurals name="tstv_timespan_years">
         <item quantity="one">%d year ago</item>
         <item quantity="other">%d years ago</item>
@@ -29,31 +30,61 @@
         <item quantity="one">%d second ago</item>
         <item quantity="other">%d seconds ago</item>
     </plurals>
-    <plurals name="tstv_timespan_years_abbr">
+
+    <plurals name="tstv_timespan_in_years">
+        <item quantity="one">this year</item>
+        <item quantity="other">in %d years</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_months">
+        <item quantity="one">this month</item>
+        <item quantity="other">in %d months</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_weeks">
+        <item quantity="one">this week</item>
+        <item quantity="other">in %d weeks</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_days">
+        <item quantity="one">tomorrow</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_hours">
+        <item quantity="one">in an hour</item>
+        <item quantity="other">in %d hours</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_minutes">
+        <item quantity="one">in a minute</item>
+        <item quantity="other">in %d minutes</item>
+    </plurals>
+    <plurals name="tstv_timespan_in_seconds">
+        <item quantity="one">in a second</item>
+        <item quantity="other">in %d seconds</item>
+    </plurals>
+
+    <plurals translatable="false" name="tstv_timespan_years_abbr">
         <item quantity="one">%dyr</item>
         <item quantity="other">%dyr</item>
     </plurals>
-    <plurals name="tstv_timespan_months_abbr">
+    <plurals translatable="false" name="tstv_timespan_months_abbr">
         <item quantity="one">%dmo</item>
         <item quantity="other">%dmo</item>
     </plurals>
-    <plurals name="tstv_timespan_weeks_abbr">
+    <plurals translatable="false" name="tstv_timespan_weeks_abbr">
         <item quantity="one">%dwk</item>
         <item quantity="other">%dwk</item>
     </plurals>
-    <plurals name="tstv_timespan_days_abbr">
+    <plurals translatable="false" name="tstv_timespan_days_abbr">
         <item quantity="one">%dd</item>
         <item quantity="other">%dd</item>
     </plurals>
-    <plurals name="tstv_timespan_hours_abbr">
+    <plurals translatable="false" name="tstv_timespan_hours_abbr">
         <item quantity="one">%dh</item>
         <item quantity="other">%dh</item>
     </plurals>
-    <plurals name="tstv_timespan_minutes_abbr">
+    <plurals translatable="false" name="tstv_timespan_minutes_abbr">
         <item quantity="one">%dm</item>
         <item quantity="other">%dm</item>
     </plurals>
-    <plurals name="tstv_timespan_seconds_abbr">
+    <plurals translatable="false" name="tstv_timespan_seconds_abbr">
         <item quantity="one">%ds</item>
         <item quantity="other">%ds</item>
     </plurals>

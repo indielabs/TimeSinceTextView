@@ -1,4 +1,4 @@
-package com.ddiehl.timesincetextview;
+package sa.indielabs.timesincetextview;
 
 import android.annotation.TargetApi;
 import android.content.Context;
