@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ddiehl.timesincetextview.TimeSinceTextView;
+import sa.indielabs.timesincetextview.TimeSinceTextView;
 
 import java.util.Date;
 
