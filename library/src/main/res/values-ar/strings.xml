@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="tstv_timespan_now">الحين</string>
+    <string name="tstv_timespan_now">الآن</string>
     <plurals name="tstv_timespan_years">
         <item quantity="zero">هذي السنة</item>
         <item quantity="one">قبل سنة</item>
@@ -30,21 +30,21 @@
         <item quantity="many">قبل %d يوم</item>
     </plurals>
     <plurals name="tstv_timespan_hours">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">قبل ساعة</item>
         <item quantity="two">قبل ساعتين</item>
         <item quantity="few">قبل %d ساعات</item>
         <item quantity="many">قبل %d ساعة</item>
     </plurals>
     <plurals name="tstv_timespan_minutes">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">قبل دقيقة</item>
         <item quantity="two">قبل دقيقتين</item>
         <item quantity="few">قبل %d دقايق</item>
         <item quantity="many">قبل %d دقيقة</item>
     </plurals>
     <plurals name="tstv_timespan_seconds">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">قبل ثانية</item>
         <item quantity="two">قبل ثانيتين</item>
         <item quantity="few">قبل %d ثوان</item>
@@ -79,24 +79,24 @@
         <item quantity="many">بعد %d يوم</item>
     </plurals>
     <plurals name="tstv_timespan_in_hours">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">بعد ساعة</item>
         <item quantity="two">بعد ساعتين</item>
         <item quantity="few">بعد %d ساعات</item>
         <item quantity="many">بعد %d ساعة</item>
     </plurals>
     <plurals name="tstv_timespan_in_minutes">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">خلال دقيقة</item>
         <item quantity="two">بعد دقيقتين</item>
         <item quantity="few">بعد %d دقايق</item>
         <item quantity="many">بعد %d دقيقة</item>
     </plurals>
     <plurals name="tstv_timespan_in_seconds">
-        <item quantity="zero">الحين</item>
+        <item quantity="zero">الآن</item>
         <item quantity="one">بعد ثانية</item>
         <item quantity="two">بعد ثانيتين</item>
         <item quantity="few">بعد %d ثوان</item>
-        <item quantity="many">بعد %d دقيقة</item>
+        <item quantity="many">بعد %d ثانية</item>
     </plurals>
 </resources>
