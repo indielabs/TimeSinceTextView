@@ -1,4 +1,4 @@
-package com.ddiehl.timesincetextview.sample;
+package sa.indielabs.timesincetextview.sample;
 
 import android.os.Bundle;
 import android.support.annotation.IdRes;
