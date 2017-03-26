@@ -28,6 +28,7 @@ dependencies {
     androidTestCompile "com.android.support:support-annotations:$project.ext.SUPPORT_LIBRARY"
     androidTestCompile "com.android.support.test:runner:$project.ext.ANDROID_TEST_SUPPORT_LIBRARY"
     androidTestCompile "com.android.support.test:rules:$project.ext.ANDROID_TEST_SUPPORT_LIBRARY"
+    androidTestCompile "org.hamcrest:hamcrest-library:$project.ext.HAMCREST_LIBRARY"
 }
 
 // Publish sources and javadoc
